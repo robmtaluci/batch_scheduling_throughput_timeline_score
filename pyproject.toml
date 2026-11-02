@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "robmtaluci-deploy_jd487"
+name = "robmtaluci-batch_scheduling_throughput_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列模型部署工程师·批处理调度与吞吐折中的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://robmtaluci.github.io"
-Repository = "https://github.com/robmtaluci/deploy_jd487"
-Issues = "https://github.com/robmtaluci/deploy_jd487/issues"
+Repository = "https://github.com/robmtaluci/batch_scheduling_throughput_timeline_score"
+Issues = "https://github.com/robmtaluci/batch_scheduling_throughput_timeline_score/issues"
 
 [project.scripts]
-deploy_jd487 = "deploy_jd487:main"
+batch_scheduling_throughput_timeline_score = "batch_scheduling_throughput_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["deploy_jd487"]
+py-modules = ["batch_scheduling_throughput_timeline_score"]
